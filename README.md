@@ -13,3 +13,6 @@ Inside a pod, a pause container is always started with the container I desired. 
 
 ### Quset: Test Environment: Minecraft server
 Minecraft is a realtime multiplayer game, the game server cost around 1G memory, is a good toy for testing and demo. I followed [this project](https://hub.docker.com/r/itzg/minecraft-server/) to set up my server on Google Cloud Platform. Trouble shooting: don't forget to set up firewall rule on GCP, and disable online-mode to bypass a checker on client side. 
+
+### Related Issues:
+https://github.com/kubernetes/kubernetes/issues/3949
