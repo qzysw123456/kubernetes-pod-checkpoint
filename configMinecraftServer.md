@@ -10,6 +10,7 @@ For simplicity just allow any income and outcome data because the server needs m
 Use ```docker pull itzg/minecraft-server``` to pull image. ```docker run -d -e EULA=TRUE -e VERSION=1.12.2 -p 25565:25565 --name mc itzg/minecraft-server```
 to start the server. Modify the server.properties file inside to close the online check. (```docker exec -it mc /bin/sh```)
 
+```docker pull qzysw123456/my-minecraft-server```, ```docker run -d -e EULA=TRUE -e VERSION=1.12.2 -p 25565:25565 --name mc qzysw123456/my-minecraft-server```
 ## Connect the server from client
 Download a client from anywhere, [VM external IP address]:25565 to connect the server.
 
