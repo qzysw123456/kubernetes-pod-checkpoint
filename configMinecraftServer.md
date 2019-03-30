@@ -7,7 +7,7 @@ For simplicity just allow any income and outcome data because the server needs m
 
 ## Install docker image
 [Instructions follow this link](https://hub.docker.com/r/itzg/minecraft-server/).
-Use ```docker pull itzg/minecraft-server``` to pull image. ```docker run -d -e EULA=TRUE -e VERSION={match your client} -p 25565:25565 --name mc itzg/minecraft-server```
+Use ```docker pull itzg/minecraft-server``` to pull image. ```docker run -d -e EULA=TRUE -e VERSION=1.12.2 -p 25565:25565 --name mc itzg/minecraft-server```
 to start the server. Modify the server.properties file inside to close the online check. (```docker exec -it mc /bin/sh```)
 
 ## Connect the server from client
