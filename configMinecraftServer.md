@@ -14,5 +14,6 @@ to start the server. Modify the server.properties file inside to close the onlin
 ## Connect the server from client
 Download a client from anywhere, [VM external IP address]:25565 to connect the server.
 
-
+## k8s-deploy-mc
+ ```kubectl run mc --image=hub.docker.com/r/itzg/minecraft-server --env="EULA=TRUE" --env="VERSION=1.12.2" --env="ONLINE_MODE=false" --port=25565```
 
